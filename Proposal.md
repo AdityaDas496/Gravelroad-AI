@@ -1,14 +1,14 @@
-# 🛣️ Gravelroad AI 🛣️
+# 🛣️ **Gravelroad AI** 🛣️
 
 ## Introduction
 
-Traffic surveillance systems generate large volumes of traffic images every day. Manual inspection of these images is quite time consuming, labor intensive and also prone to inconsistencies. This project proposes, Gravelroad AI, which is an intelligent computer vision platform capable of automatically detecting vehicles, identifying traffic violations, extracting vehicle information, and generating evidence against road laws for traffic law enforcement.
+Traffic surveillance systems generate large volumes of traffic images every day. Manual inspection of these images is quite time consuming, labor intensive and also prone to inconsistencies. This project proposes, **Gravelroad AI**, which is an intelligent computer vision platform capable of automatically detecting vehicles, identifying traffic violations, extracting vehicle information, and generating evidence against road laws for traffic law enforcement.
 
 ---
 
 ## Proposed Approach
 
-The proposed solution, Gravelroad AI, is a computer-vision based traffic analysis platform that is designed to automatically identify, classify, and document various traffic violations from traffic photographs and surveillance imagery. The system’s main aim is to reduce dependency on manual monitoring by providing an intelligent and scalable framework that is capable of processing large volumes of traffic data efficiently.
+The proposed solution, **Gravelroad AI**, is a computer-vision based traffic analysis platform that is designed to automatically identify, classify, and document various traffic violations from traffic photographs and surveillance imagery. The system’s main aim is to reduce dependency on manual monitoring by providing an intelligent and scalable framework that is capable of processing large volumes of traffic data efficiently.
 
 The workflow begins with the acquisition of traffic images from multiple sources, which include CCTV cameras, roadside surveillance systems, traffic monitoring infrastructure, and photographic evidence.
 
