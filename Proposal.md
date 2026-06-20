@@ -97,7 +97,7 @@ The architecture of Gravelroad AI consists of six major components:
 
 ### Architecture Diagram
 
-![System Architecture](architecture.png)
+<img src="architecture.png" alt="System Architecture" width="100%" style="max-width: 100%; height: auto;" />
 
 Traffic images acquired from surveillance infrastructure are first processed by the AI Processing Engine, which performs:
 
