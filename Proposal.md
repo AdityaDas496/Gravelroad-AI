@@ -100,7 +100,7 @@ So, let's go through each of the components and how each of them work and lead t
 
 ### Architecture Diagram
 
-<img src="architecture.png" alt="System Architecture" width="100%" style="max-width: 150%; height: auto;" />
+<img src="architecture.png" alt="System Architecture" width="120%" style="max-width: 150%; height: auto;" />
 [Figure 1]
 
 Figure 1 illustrates the overall architecture of Gravelroad AI and the interactions between the six major modules of the system.
