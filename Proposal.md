@@ -100,6 +100,14 @@ So, let's go through each of the components and how each of them work and lead t
 ### Architecture Diagram
 
 <img src="architecture.png" alt="System Architecture" width="100%" style="max-width: 150%; height: auto;" />
+[Figure 1]
+
+Figure 1 illustrates the overall architecture of Gravelroad AI and the interactions between the six major modules of the system.
+
+<img src="system workflow.png" alt="System Workflow" width="100%" style="max-width: 120%; height: auto;" />
+[Figure 2]
+
+Figure 2 illustrates the complete workflow of the proposed system from traffic image acquisition to analytics generation.
 
 ### 1. Input Sources
 
