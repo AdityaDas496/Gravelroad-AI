@@ -1,5 +1,5 @@
 # **Gravelroad AI** 
-<img src="Gravelroad logo.png" alt="System Architecture" width="100%" style="max-width: 150%; height: auto;" />
+<img src="Gravelroad logo.png" alt="System Architecture" width="10%" style="max-width: 10%; height: auto;" />
 
 ## Introduction
 
