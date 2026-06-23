@@ -95,22 +95,137 @@ The architecture of Gravelroad AI consists of six major components:
 5. Evidence Generation
 6. Analytics and Reporting
 
+So, let's go through each of the components and how each of them work and lead to the entire system working well and effiriciently.
+
 ### Architecture Diagram
 
 <img src="architecture.png" alt="System Architecture" width="100%" style="max-width: 150%; height: auto;" />
 
-Traffic images acquired from surveillance infrastructure are first processed by the AI Processing Engine, which performs:
+### 1. Input Sources
 
-* Preprocessing
-* Object Detection
-* Multi-Object Tracking
-* Road Understanding
+The system takes inputs from:
 
-The processed information is then forwarded to the Violation Detection Engine, where the traffic violation is identified and classified.
+1. CCTV Cameras
+2. Roadside Surverillance Systems
+3. Traffic Monitoring Infrastructure
+4. Highway Monitoring Cameras
+5. Smart City Surveillance Networks
+6. Photographic Evidence Collected by Authorities
 
-Simultaneously, detected vehicles are passed to the License Plate Recognition module for vehicle identification.
+But all of the images are of varying environmental conditions such as: low-light scenarios, rain, shadows, glare, motion blur, partial occlusion and varying traffic densities. To combat this issue, all the images are first forwarded to the AI Processing Engine where the images are preprocessed and normalized before analysis begins.
+The output are normalized images which are then forwarded to computer vision processing.
 
-Violation records and supporting evidence are stored in the centralized database, which serves as foundation for analytics, reporting and performance evaluation.
+### 2 AI Processing Engine
+
+This is the **perception layer of the system*. It transforms raw traffic images into structured visual information that is used for traffic analysis. One example of structured visual information is *red bounding boxes* used to highlight the vehicle is violating any road law.
+
+The AI Processing Engine consists of four major sub-components:
+
+#### 2.1 Image Preprocessing
+
+Before preforming any task of detection, the incoming trafic images are first enhanced to improve the image quality and increase reliability of detection.
+
+The stages of preprocessing are:
+1. Contrast Enhancement using CLAHE
+2. Brightness Normalization
+3. Shadow Handling
+4. Reduction of Noise
+5. Motion Blur Reduction
+6. Image Resizing and Standardization
+
+#### 2.2 Vehicle and Road Detection
+
+After preprocessing is completed, the images are forwarded to a YOLOv8-based detection system.
+
+This module is responsible for detecting and localizing:
+
+1. Cars
+2. Buses
+3. Trucks
+4. Motorcycle
+5. Bicycles
+6. Pedestrians
+
+Every single detected object has an individual:
+
+1. Bounding Box Coordinate
+2. Object Class
+3. Confidence Score
+
+#### 2.3 Multi-Object Tracking
+
+For a video-based traffic monitoring scenario, a tracking system is incorporated to maintain the same identity for the same vehicle moving across multiple frames.
+
+The tracking module uses BoT-SORT which assigns a unique identifier for each vehicle. These allow the system to monitor vehicle movement over time and supports analysis based on vehicle's behavior.
+
+The tracking compenent enables:
+
+1. Vehicle Trajectory Analysis
+2. Same identity for the same vehicle across frames
+3. Motion Pattern Understanding
+4. Violation detection based on behavior of vehicle
+
+#### 2.4 Road Understanding
+
+To even detect traffic violations the road environment must be accurately detected to assign traffic violations accordingly.
+
+The Road Understanding module defines:
+
+1. Lane Regions
+2. Parking Zones
+3. Stop-Line Regions
+4. Traffic Signal Regions
+5. Restricted Areas
+
+This serves as contextual information to the AI Processing Engine which helps it determine whether the vehicle is violating a traffic violation rather than just detecting its presence.
+
+### 3. Violation Detection Engine
+
+This is the  brain of the Gravelroad AI system which makes the decisions.
+
+Its purpose is to evaluate a detected vehicle against predefined traffic regulations and determine whether violation has occured.
+
+Engine receives:
+ 
+1.  Vehicle Detections
+2.  Tracking Information
+3.  Vehicle Trajectories
+4.  Road Contextual Information
+
+Using this the system analyses multiple categories of violations.
+
+#### Helmet Non-Compliance
+
+System checks identifies motorcycle riders and checks whether protective helmet is present or missing. Missing helmets are classified as helmet non-compliance violations.
+
+#### Seatbelt Non-Compliance
+
+The syste analyses the driver regions (the seat they are sitting on in the vehicle) and determines whether seatbelt is visible or not. Vehicles operating without visible seatbelts are flagged.
+
+#### Triple Riding
+
+System counts the number of rider on a two wheeler and compares the count againsts legal occupancy limits.
+
+#### Stop-Line Violation
+
+Position of a vehicle relative to a predefined stop-line region is evaluated. Vehicles that cross the stop-line under prohibited conditions are identified as violators.
+
+#### Red-Light Violation
+
+Vehicle movement patterns are analyzed alongside traffic signal states. Vehicles crossing intersections during a red signal phase are classified as red-light violators.
+
+#### Illegal Parking
+
+Vehicle movement patterns are constantly monitored. Vehicles that remain stationary within restricted parking zones for extended durations are classifed as illegal parking violations.
+
+Each violation is assigned a:
+
+1. Violation Category
+2. Confidence Score
+3. Timestamp
+4. Vehicle Identifier
+
+The resulting violation records are forwarded to the next stages of the system.
 
 ---
 
