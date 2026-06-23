@@ -33,7 +33,7 @@ The current prototype includes the following functions:
 * Helmet Non-Compliance Detection.
 * Violation analysis on a rule by rule basis framework.
 
-<img src="illegal parking.jpg" alt="Illegal Parking" width="60%" style="max-width: 60%; height: auto;" />
+<img src="illegal parking.jpg" alt="Illegal Parking" width="60%" style="max-width: 70%; height: auto;" />
 
 ### License Plate Recognition
 
@@ -41,7 +41,7 @@ The current prototype includes the following functions:
 * OCR-based text extraction.
 * Vehicle registration identification.
 
-<img src="ocr result.jpg" alt="OCR Result" width="60%" style="max-width: 60%; height: auto;" />
+<img src="ocr result.jpg" alt="OCR Result" width="60%" style="max-width: 50%; height: auto;" />
 
 ### Evidence Generation
 
