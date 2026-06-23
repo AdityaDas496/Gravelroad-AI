@@ -128,7 +128,7 @@ Detected vehicles are simultaneously forwarded to the License Plate Recognition 
 
 # Analytics Dashboard
 
-The Analytics Dashboard converts raw violation records into meaningful outputs that can assist traffic authorities in monitoring traffic violations and identifying recurring patterns (Example: ID-213 had done Parking Violations more than three time).
+The Analytics Dashboard converts raw violation records into outputs that can be easily understood and can hence, assist traffic authorities in monitoring traffic violations and identifying recurring patterns (Example: ID-213 had done Parking Violations more than three time).
 
 The dashboard currently supports:
 
