@@ -37,7 +37,7 @@ The current prototype includes the following functions:
 
 ### Helmet Non-Compliance Detection
 
-<img src="helmet violation.png" alt="Helmet Violation" width="40%" style="max-width: 40%; height: auto;" />
+<img src="helmet violation.png" alt="Helmet Violation" width="30%" style="max-width: 30%; height: auto;" />
 
 ### License Plate Recognition
 
@@ -45,7 +45,7 @@ The current prototype includes the following functions:
 * OCR-based text extraction.
 * Vehicle registration identification.
 
-<img src="ocr result.jpg" alt="OCR Result" width="30%" style="max-width: 30%; height: auto;" />
+<img src="ocr result.jpg" alt="OCR Result" width="50%" style="max-width: 50%; height: auto;" />
 
 ### Evidence Generation
 
