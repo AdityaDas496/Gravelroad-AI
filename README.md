@@ -35,6 +35,10 @@ The current prototype includes the following functions:
 
 <img src="illegal parking.jpg" alt="Illegal Parking" width="60%" style="max-width: 70%; height: auto;" />
 
+### Helmet Non-Compliance Detection
+
+<img src="illegal parking.jpg" alt="Illegal Parking" width="60%" style="max-width: 70%; height: auto;" />
+
 ### License Plate Recognition
 
 * Localization of vehicle number plates.
