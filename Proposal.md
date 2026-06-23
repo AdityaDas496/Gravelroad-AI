@@ -106,7 +106,7 @@ Figure 1 illustrates the overall architecture of Gravelroad AI and the interacti
 
 ### System Workflow Diagram
 
-<img src="system workflow.png" alt="System Workflow" width="60%" style="max-width: 30%; height: auto;" />
+<img src="system workflow.png" alt="System Workflow" width="40%" style="max-width: 30%; height: auto;" />
 [Figure 2]
 
 Figure 2 illustrates the complete workflow of the proposed system from traffic image acquisition to analytics generation.
@@ -190,6 +190,11 @@ The Road Understanding module defines:
 This serves as contextual information to the AI Processing Engine which helps it determine whether the vehicle is violating a traffic law rather than just detecting its presence.
 
 ### 3. Violation Detection Engine
+
+<img src="violation detection workflow.png" alt="Violation Detection Workflow" width="40%" style="max-width: 30%; height: auto;" />
+[Figure 3]
+
+Illustrates the internal workflow of the Violation Detection Engine.
 
 This is the  brain of the Gravelroad AI system which makes the decisions.
 
