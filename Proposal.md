@@ -1,4 +1,4 @@
-# 🛣️ **Gravelroad AI** 🛣️
+# **Gravelroad AI** 
 
 ## Introduction
 
