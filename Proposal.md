@@ -191,7 +191,7 @@ This serves as contextual information to the AI Processing Engine which helps it
 
 ### 3. Violation Detection Engine
 
-<img src="violation detection workflow.png" alt="Violation Detection Workflow" width="40%" style="max-width: 40%; height: auto;" />
+<img src="violation detection workflow.png" alt="Violation Detection Workflow" width="50%" style="max-width: 40%; height: auto;" />
 [Figure 3]
 
 Illustrates the internal workflow of the Violation Detection Engine.
