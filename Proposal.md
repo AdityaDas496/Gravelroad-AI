@@ -177,7 +177,7 @@ The Road Understanding module defines:
 4. Traffic Signal Regions
 5. Restricted Areas
 
-This serves as contextual information to the AI Processing Engine which helps it determine whether the vehicle is violating a traffic violation rather than just detecting its presence.
+This serves as contextual information to the AI Processing Engine which helps it determine whether the vehicle is violating a traffic law rather than just detecting its presence.
 
 ### 3. Violation Detection Engine
 
