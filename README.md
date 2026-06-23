@@ -3,6 +3,8 @@
 
 ## Automated Traffic Violation Detection and Classification using Computer Vision
 
+<img src="architecture.png" alt="System Architecture" width="120%" style="max-width: 150%; height: auto;" />
+
 Gravelroad AI is an intelligent computer vision platform that is designed to automatically detect, classify, and document traffic violations from traffic images and videos. The system combines object detection, multi-object tracking, license plate recognition, evidence generation, and analytics to assist traffic authorities in monitoring traffic violations more efficiently.
 
 The primary objective of the proposed system is to reduce the load on manual monitoring of the footage and provide an automated way of handling all the live feed and which is capable of processing large amount of traffic data while generating reliable and accurate evidence for traffic law enforcement to act upon.
