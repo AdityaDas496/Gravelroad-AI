@@ -1,4 +1,5 @@
 # Gravelroad AI
+<img src="Gravelroad logo.png" alt="System Architecture" width="10%" style="max-width: 10%; height: auto;" />
 
 ## Automated Traffic Violation Detection and Classification using Computer Vision
 
