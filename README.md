@@ -37,7 +37,7 @@ The current prototype includes the following functions:
 
 ### Helmet Non-Compliance Detection
 
-<img src="illegal parking.jpg" alt="Illegal Parking" width="60%" style="max-width: 70%; height: auto;" />
+<img src="helmet violation.png" alt="Helmet Violation" width="60%" style="max-width: 70%; height: auto;" />
 
 ### License Plate Recognition
 
