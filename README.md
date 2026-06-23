@@ -41,6 +41,8 @@ The current prototype includes the following functions:
 * OCR-based text extraction.
 * Vehicle registration identification.
 
+<img src="ocr result.jpg" alt="OCR Result" width="60%" style="max-width: 60%; height: auto;" />
+
 ### Evidence Generation
 
 * Automatic generation of annotated violation images.
