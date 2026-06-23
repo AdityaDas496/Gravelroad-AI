@@ -104,6 +104,8 @@ So, let's go through each of the components and how each of them work and lead t
 
 Figure 1 illustrates the overall architecture of Gravelroad AI and the interactions between the six major modules of the system.
 
+### System Workflow Diagram
+
 <img src="system workflow.png" alt="System Workflow" width="60%" style="max-width: 30%; height: auto;" />
 [Figure 2]
 
