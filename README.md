@@ -189,4 +189,4 @@ Future enhancements may include:
 
 **Project:** Gravelroad AI
 
-Challenge: Flipkart Gridlock Hackathon 2.0.
+**Challenge:** Flipkart Gridlock Hackathon 2.0.
