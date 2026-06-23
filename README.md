@@ -33,7 +33,7 @@ The current prototype includes the following functions:
 * Helmet Non-Compliance Detection.
 * Violation analysis on a rule by rule basis framework.
 
-<img src="illegal parking.png" alt="System Architecture" width="100%" style="max-width: 100%; height: auto;" />
+<img src="illegal parking.jpg" alt="Illegal Parking" width="100%" style="max-width: 100%; height: auto;" />
 
 ### License Plate Recognition
 
