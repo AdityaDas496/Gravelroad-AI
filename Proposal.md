@@ -227,6 +227,64 @@ Each violation is assigned a:
 
 The resulting violation records are forwarded to the next stages of the system.
 
+### 4. License Plate Recognition
+
+Once a traffic violation has been detected, the system attempts to identify the vehicle associated with the violation through the License Plate Recognition (LPR) system.
+
+Various stages of the LPR module are:
+
+#### Number Plate Detection
+
+The system first localizes the vehicle license plate within an image
+
+#### Optical Character Recognition
+
+After localization is completed, OCR techniques are applied to extract alphanumeric registration information from the plate. (Ex: MH13BN8454)
+
+The extracted license number is mapped with the corresponding violation record and is then stored for future references.
+
+This module enables:
+
+1. Vehicle Identification
+2. Violation Attribution
+3. Enforcement Support
+4. Searchable Vehicle Records
+
+### 5. Evidence Generation
+
+Evidence generation is one of the most critical components of the proposed system.
+
+For every violation that is detected, the Evidence Generation module automatically creates supporting documentation for that particular vehicle that can be later reviewed by traffic authorities.
+
+Each evidence record contains:
+
+1. Annoteted Traffic Image
+2. Bounding Boxes
+3. Vehicle Identifier
+4. Violation Category
+5. Timestamp
+6. Confidence Score
+7. License Number (When available)
+
+All evidence files are stored and linked to the corresponding violation record.
+
+### 6. Analytics and Reporting
+
+The final component of the architecture is responsible for transforming the collected records into understandable insights.
+
+All detected violations are stored in a centralized violation database. The Analytics and Reporting module continuously processes these records to generated summaries based on the traffic law violators' behavior and keeps a history of their past violations. This is then used for trend analysis.
+
+The analytics system provides:
+
+1. Total Violation Statistics
+2. Violation Frequency Analysis
+3. Violation Distribution Visualization
+4. Searchable Violation Records
+5. Historical Violation Tracking
+6. Traffic Enforcement Reports
+
+These insights assist traffic authorities in identifying recurring traffic issues, helping them to allocate the resources needed for enforcement by authority efficiently. Also allows for long-term understanding of traffic behavior patterns.
+
 ---
 
 ## Assumptions
