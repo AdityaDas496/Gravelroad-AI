@@ -1,0 +1,6 @@
+vehicle_id,violation_type,timestamp,evidence_path
+1,illegal_parking,23:04.9,evidence/illegal_parking_1_20260621_192304.jpg
+3,illegal_parking,23:04.9,evidence/illegal_parking_3_20260621_192304.jpg
+16,illegal_parking,23:04.9,evidence/illegal_parking_16_20260621_192304.jpg
+18,illegal_parking,23:06.3,evidence/illegal_parking_18_20260621_192306.jpg
+84,illegal_parking,23:06.6,evidence/illegal_parking_84_20260621_192306.jpg
